@@ -11,7 +11,7 @@ int main(){
     cin >> num1;
     cout << "Enter operator: ";
     cin >> op;
-    cout << "Enter seconf number: ";
+    cout << "Enter second number: ";
     cin >> num2;
 
     // operations
