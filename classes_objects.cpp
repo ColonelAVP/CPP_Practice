@@ -2,14 +2,25 @@
 
 using namespace std;
 
-int main(){
+class Book {
+    public:
+        string title;
+        string author;
+        int pages;
+};
 
-    string name = "Mike";
-    double pi = 3.14;
-    char fav_letter = "C";
+int main() {
 
-    
+    Book book1;
+    book1.title = "Harry Potter";
+    book1.author = "J K Rowling";
+    book1.pages = 500;
 
+    Book book2;
+    book1.title = "2 states";
+    book1.author = "Chetan Bhagat";
+    book1.pages = 350;
 
+    cout << book2.title;
     
 }
